@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eriks Erste Website</title>
+    <link rel="stylesheet" href="prefixed.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <style>
+        body {
+            background: #ffffff;
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        #home {
+            background: url("https://i.ibb.co/Sw0xm52G/Screenshot-2025-03-13-145538.png") no-repeat center center/cover;
+            height: 100vh;
+        }
+        #work, #portfolio {
+            background: #ffffff;
+            text-align: center;
+            padding: 100px 0;
+            color: #000000;
+        }
+        .portfolio-thumb img {
+            width: 100%;
+            height: auto;
+        }
+        .media {
+            display: flex;
+            align-items: flex-start; /* Logo bleibt oben neben dem Titel */
+            text-align: left;   
+        }
+        .media-left img {
+            width: 35px; /* Logo-Größe anpassen */
+            height: auto;
+            margin-right: 10px; /* Kleiner Abstand zum Titel */
+        }
+        .media-body {
+            display: flex;
+            flex-direction: column;
+        }
+        .media-body h3 {
+            display: flex;
+            align-items: center; /* Logo und Titel in einer Linie */
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .social-links img {
+            width: 30px;
+            height: auto;
+        }
+        .contact address {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contact .contact-item img {
+            width: 30px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="home"></div>
+    <div class="work">
+        <div class="container">
+            <h2>Informatik</h2>
+            <div class="col-md-4 col-xs-11">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2419/2419320.png" alt="Bild1">
+                    </div>
+                    <div class="media-body">
+                        <h3>Programmieren</h3>
+                        <p>Ich programmiere sehr gerne und habe bereits 3 Webseiten mit CSS, JS und HTML erstellt. Python habe ich auch ein bisschen gelernt, aber da bin ich noch nicht so gut. Ich freue mich darauf, meine Fähigkeiten in diesen Bereichen weiter auszubauen und immer komplexere Projekte zu realisieren. Die verschiedenen Websiten findest du auch auf meinem Github Account.</p>
+                    </div>
+                </div>
+            </div>                       
+            <div class="col-md-4 col-xs-11">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="https://static.thenounproject.com/png/369287-200.png" alt="Bild1">
+                    </div>
+                    <div class="media-body">
+                        <h3>Skills</h3>
+                        <p>Ich bin gut im Programmieren und habe eine große Leidenschaft fürs Gamen. Meine Fähigkeit, Dinge räumlich vorzustellen, hilft mir, komplexe Konzepte zu visualisieren und schnell zu verstehen. Ich arbeite mit hoher Konzentration an Aufgaben, was mir hilft, auch herausfordernde Probleme effektiv zu lösen. Zudem bin ich im Bauen sehr geschickt, was meine Kreativität und handwerkliche Fertigkeit zeigt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-11">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="https://static.thenounproject.com/png/10148-200.png" alt="Bild1">
+                    </div>
+                    <div class="media-body">
+                        <h3>Hobbys</h3>
+                        <p>Ich gehe gerne boxen, um mich auszupowern und fit zu bleiben. Fahrradfahren ist für mich eine tolle Möglichkeit, draußen aktiv zu sein und die Natur zu genießen. Ab und zu spiele ich Golf, was eine entspannte Abwechslung für mich ist. Manchmal ziehe ich es auch vor, in den Wald zu gehen, um dort etwas zu bauen – das gibt mir die Gelegenheit, meine Kreativität auszuleben und neue Projekte zu starten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="col-md-6 col-xs-11">
+                <h2>Erik Spinnler</h2>
+                <h4>Biography</h4>
+                <p>Ich programmiere sehr gerne und habe bereits 3 Webseiten mit CSS, JS und HTML erstellt. Python habe ich auch ein bisschen gelernt, aber da bin ich noch nicht so gut. In meiner Freizeit gehe ich gerne boxen, fahre oft Fahrrad und spiele ab und zu Golf. Manchmal gehe ich auch in den Wald, um etwas zu bauen und meine Kreativität auszuleben. Ich bin auch gut im räumlichen Vorstellen und konzentriere mich gut auf Aufgaben, was mir hilft, bei allem, was ich mache, effektiv zu sein.</p>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="container">
+        <h2>PORTFOLIO</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="portfolio-thumb">
+                    <img src="https://i.ibb.co/xVPcVw6/Bild1.png" alt="Bild1">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-thumb">
+                    <img src="https://i.ibb.co/233dpNZn/Bild-2.png" alt="Bild2">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-thumb">
+                    <img src="https://i.ibb.co/ZRmpQqW7/DALL-E-2025-03-14-11-29-19-A-hand-built-treehouse-in-the-forest-perched-high-in-a-tree-surrounded-by.webp" alt="Badminton">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="col-lg-5 col-lg-offset-1 col-md-6">
+                <address>
+                    <p class="contact-title">KONTAKT</p>
+                    <div class="contact-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/665/665135.png" alt="Telefon Icon">
+                        <p>077-457-91-68</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://static.vecteezy.com/system/resources/previews/006/697/974/non_2x/mail-email-icon-template-black-color-editable-mail-email-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg" alt="E-Mail Icon">
+                        <p>erik.spinnler12@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3095/3095581.png" alt="Adresse Icon">
+                        <p>3145 Niederscherli</p>
+                    </div>
+                </address>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-10">
+                <form action="#">
+                    <input class="form-control name" placeholder="Name Vorname">
+                    <input class="form-control email" placeholder="Deine Emailadresse">
+                    <textarea class="form-control message" placeholder="Deine Nachricht"></textarea>
+                    <input type="submit" class="form-control send" value="SENDEN">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Erstellt von Erik Spinnler</p>
+            <div class="social-links">
+                <a href="https://youtube.com/@fullyerik" target="_blank">
+                    <img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png" alt="YouTube">
+                </a>
+                <a href="hhttps://www.tiktok.com/@wild_erik_tt" target="_blank">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="TikTok">
+                </a>
+                <a href="https://www.instagram.com/erikonyx.exe/" target="_blank">
+                    <img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-03-512.png" alt="Instagram">
+                </a>
+                <a href="https://www.github.com/fullyerik" target="_blank">
+                    <img src="https://img.icons8.com/ios11/200/FFFFFF/github.png" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

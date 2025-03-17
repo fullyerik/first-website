@@ -1,0 +1,124 @@
+body {
+    background: #000000;
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#portfolio {
+    background: #1a1a1a;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    color: #ffffff;
+}
+
+#portfolio h2 {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+#portfolio .portfolio-thumb {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.5s ease;
+    margin-bottom: 30px;
+}
+
+#portfolio .portfolio-thumb:hover {
+    transform: scale(1.1);
+}
+
+#portfolio .portfolio-thumb img {
+    width: 100%; /* Bild passt sich an die Breite des Containers an */
+    height: auto; /* Verhindert Verzerrung */
+    object-fit: contain; /* Stellt sicher, dass das gesamte Bild sichtbar ist */
+}
+#contact .contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+#contact .fa {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #000000;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#contact .form-control {
+    background: transparent;
+    border: 2px solid #999;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#contact input {
+    height: 50px;
+}
+
+#contact input[type="submit"] {
+    background: #000000;
+    border: 2px solid transparent;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+    background: #000000;
+    color: #999;
+}
+
+footer hr {
+    width: 100px;
+}
+
+.icons {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    color:#ffffff
+}
+
+.icons li {
+    display: inline-block;
+    list-style: none;
+}
+
+.icons li a {
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.icons li a:hover {
+    color: #000000;
+}
+
+.hasError {
+    border-color: #000000 !important;
+    color: #000000 !important;
+}
+
+.hasSuccess {
+    border-color: lightgreen !important;
+    color: lightgreen !important;
+}

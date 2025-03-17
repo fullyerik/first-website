@@ -1,0 +1,126 @@
+body {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold !important;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+    background: #000000;
+    color: #999;
+}
+
+footer hr {
+    width: 100px;
+}
+
+.icons {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.icons li {
+    display: inline-block;
+    list-style: none;
+}
+
+.icons li a {
+    border-radius: 50%;
+    color: #606060;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.icons li a:hover {
+    color: #000000;
+}
+
+.work .media {
+    margin-top: 30px;
+}
+
+.work .media .fa {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.about .progress {
+    border-radius: 4px;
+    background: #ffffff;
+    height: 4px;
+}
+
+.about .progress .progress-bar-danger {
+    background: #000000;
+}
+
+.about .text-top {
+    padding-top: 50px;
+}
+
+.about span {
+    font-weight: bold;
+    display: block;
+    padding-bottom: 6px;
+}
+
+.about small {
+    font-weight: bold;
+    float: right;
+}
+
+.portfolio h2 {
+    padding-bottom: 30px;
+}
+
+.portfolio img {
+    height: 300px;
+}
+
+.portfolio .portfolio-thumb {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact .contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.contact .fa {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #000000;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.contact .form-control {
+    background: transparent;
+    border: 2px solid #999;
+    margin-bottom: 30px;
+}

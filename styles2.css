@@ -1,0 +1,27 @@
+.work,
+.about,
+.contact,
+.portfolio {background-color: rgb(255, 255, 255) 
+}
+
+.work,
+.portfolio {}
+
+.work {}
+
+.about,
+.contact {}
+
+.home {
+    background: url('https://i.ibb.co/844fmD67/tori-1976609-1280.jpg');
+    background-size: cover;
+    padding-bottom: 75vh;
+}
+
+.about h4 {
+}
+
+.contact input[type="submit"] {}
+
+.contact input[type="submit"]:hover {}
+.fa {color: black !important}
