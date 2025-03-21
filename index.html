@@ -30,13 +30,13 @@
         }
         .media {
             display: flex;
-            align-items: flex-start; /* Logo bleibt oben neben dem Titel */
+            align-items: flex-start;
             text-align: left;   
         }
         .media-left img {
-            width: 35px; /* Logo-Größe anpassen */
+            width: 35px;
             height: auto;
-            margin-right: 10px; /* Kleiner Abstand zum Titel */
+            margin-right: 10px;
         }
         .media-body {
             display: flex;
@@ -44,7 +44,7 @@
         }
         .media-body h3 {
             display: flex;
-            align-items: center; /* Logo und Titel in einer Linie */
+            align-items: center;
         }
         .social-links {
             display: flex;
@@ -69,6 +69,34 @@
         .contact .contact-item img {
             width: 30px;
             height: auto;
+        }
+        .about .container .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .about .container .row .col-md-6 {
+            flex: 1;
+            padding: 15px;
+        }
+
+        .text-top {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+
+        .text-right {
+            text-align: right;
+        }
+
+        .progress {
+            margin-bottom: 10px;
+        }
+
+        .small {
+            font-size: 12px;
         }
     </style>
 </head>
@@ -106,7 +134,7 @@
                     </div>
                     <div class="media-body">
                         <h3>Hobbys</h3>
-                        <p>Ich gehe gerne boxen, um mich auszupowern und fit zu bleiben. Fahrradfahren ist für mich eine tolle Möglichkeit, draußen aktiv zu sein und die Natur zu genießen. Ab und zu spiele ich Golf, was eine entspannte Abwechslung für mich ist. Manchmal ziehe ich es auch vor, in den Wald zu gehen, um dort etwas zu bauen – das gibt mir die Gelegenheit, meine Kreativität auszuleben und neue Projekte zu starten.</p>
+                        <p>Ich gehe gerne boxen, um mich auszupowern und fit zu bleiben. Fahrradfahren ist für mich eine tolle Möglichkeit, draußen aktiv zu sein und die Natur zu genießen. Ab und zu spiele ich Golf, was eine entspannte Abwechslung für mich ist. Manchmal ziehe ich es auch vor, in den Wald zu gehen, um etwas zu bauen – das gibt mir die Gelegenheit, meine Kreativität auszuleben und neue Projekte zu starten.</p>
                     </div>
                 </div>
             </div>
@@ -114,10 +142,40 @@
     </div>
     <div class="about">
         <div class="container">
-            <div class="col-md-6 col-xs-11">
-                <h2>Erik Spinnler</h2>
-                <h4>Biography</h4>
-                <p>Ich programmiere sehr gerne und habe bereits 3 Webseiten mit CSS, JS und HTML erstellt. Python habe ich auch ein bisschen gelernt, aber da bin ich noch nicht so gut. In meiner Freizeit gehe ich gerne boxen, fahre oft Fahrrad und spiele ab und zu Golf. Manchmal gehe ich auch in den Wald, um etwas zu bauen und meine Kreativität auszuleben. Ich bin auch gut im räumlichen Vorstellen und konzentriere mich gut auf Aufgaben, was mir hilft, bei allem, was ich mache, effektiv zu sein.</p>
+            <div class="row">
+                <div class="col-md-6 col-xs-11">
+                    <h2>Erik Spinnler</h2>
+                    <h4>Biography</h4>
+                    <p>Ich programmiere sehr gerne und habe bereits 3 Webseiten mit CSS, JS und HTML erstellt. Python habe ich auch ein bisschen gelernt, aber da bin ich noch nicht so gut. In meiner Freizeit gehe ich gerne boxen, fahre oft Fahrrad und spiele ab und zu Golf. Manchmal gehe ich auch in den Wald, um etwas zu bauen und meine Kreativität auszuleben. Ich bin auch gut im räumlichen Vorstellen und konzentriere mich gut auf Aufgaben, was mir hilft, bei allem, was ich mache, effektiv zu sein.</p>
+                </div>
+                <div class="col-md-6 col-xs-11">
+                    <div class="text-right">
+                        <span class="text-top">
+                            Schlafen 40%
+                        </span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" style="width: 40%;"></div>
+                        </div>
+                        <span>
+                            Fortnite 40%
+                        </span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" style="width: 40%;"></div>
+                        </div>
+                        <span>
+                            Essen 10%
+                        </span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" style="width: 10%;"></div>
+                        </div>
+                        <span>
+                            Sport 10%
+                        </span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" style="width: 10%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -152,7 +210,7 @@
                     </div>
                     <div class="contact-item">
                         <img src="https://static.vecteezy.com/system/resources/previews/006/697/974/non_2x/mail-email-icon-template-black-color-editable-mail-email-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg" alt="E-Mail Icon">
-                        <a href="mailto:erik.spinnler12@gmail.com" style="color: blue; font-weight: bold; text-decoration: underline;"> erik.spinnler12@gmail.com</a>
+                        <p>erik.spinnler12@gmail.com</p>
                     </div>
                     <div class="contact-item">
                         <img src="https://cdn-icons-png.flaticon.com/512/3095/3095581.png" alt="Adresse Icon">
